@@ -162,9 +162,11 @@ input:focus {
 }
 
 .container {
+  position: relative;
+  width: 100%;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: repeat(4, auto);
+  grid-template-rows: 127px auto auto auto;
   grid-template-areas: "h h h h h h h h h h h h" "mc mc mc mc mc mc mc mc mc mc mc mc" "bs bs bs bs bs bs bs bs bs bs bs bs" "f f f f f f f f f f f f";
 }
 .container .header {
@@ -172,6 +174,7 @@ input:focus {
 }
 .container .main-content {
   grid-area: mc;
+  grid-row-start: 2;
 }
 .container .blog-subscribe {
   grid-area: bs;
