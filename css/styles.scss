@@ -1,5 +1,6 @@
 @import "variables";
 @import "fonts";
+@import "header";
 
 
 :root {
@@ -50,4 +51,55 @@ a:active, a:focus {
 button:focus,
 input:focus {
   outline: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas:
+    "h h h h h h h h h h h h"
+    "mc mc mc mc mc mc mc mc mc mc mc mc"
+    "bs bs bs bs bs bs bs bs bs bs bs bs"
+    "f f f f f f f f f f f f";
+
+  .header {
+    grid-area: h;
+  }
+
+  .main-content {
+    grid-area: mc;
+  }
+
+  .blog-subscribe {
+    grid-area: bs;
+  }
+
+  .footer {
+    grid-area: f;
+  }
+}
+
+
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .menu .menu-item {
+    margin-top: 24px;
+  }
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
 }
