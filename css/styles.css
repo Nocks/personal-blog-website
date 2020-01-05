@@ -310,6 +310,75 @@ input:focus {
   box-shadow: 1px 2px 2px -1px rgba(112, 108, 112, 0.58);
 }
 
+.footer {
+  margin-top: 0;
+  padding: 4em 1.2em 1em 1.2em;
+  background-color: #070439;
+  color: #f6f6fe;
+  font-size: 0.9em;
+}
+.footer .personal-logo {
+  width: 5em;
+}
+.footer .personal-details .phone, .footer .personal-details .email {
+  display: flex;
+  align-items: baseline;
+}
+.footer .personal-details .email {
+  margin-top: 0;
+}
+.footer .personal-details .details-icon {
+  margin-right: 15px;
+}
+.footer .other-links {
+  margin-top: 2.5em;
+  margin-bottom: 4em;
+}
+.footer .other-links .social {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.footer .other-links .social .social-icon {
+  margin-right: 11px;
+  height: 2.4em;
+  width: 2.4em;
+}
+.footer .other-links .social .social-icon + .social-icon {
+  margin-top: 0;
+}
+.footer .other-links .social .social-icon .fab {
+  padding: 9px;
+  font-size: 14px;
+  height: 2.4em;
+  width: 2.4em;
+  border-radius: 50%;
+  color: #f6f6fe;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #f6f6fe;
+}
+.footer .other-pages {
+  margin-bottom: 4em;
+  color: #f6f6fe;
+}
+.footer .other-pages .menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 0.9em;
+}
+.footer .other-pages .menu .link-item a {
+  color: #f6f6fe;
+}
+.footer .attribution {
+  font-size: 0.8em;
+  text-align: center;
+}
+.footer .attribution .external-link a {
+  color: #f6f6fe;
+}
+
 /* 48em = 768px */
 @media (min-width: 48em) {
   .menu .menu-item {

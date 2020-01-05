@@ -230,6 +230,91 @@ input:focus {
     }
 }
 
+.footer {
+    margin-top: 0;
+    padding: 4em 1.2em 1em 1.2em;
+    background-color: $color-very-dark-blue;
+    color: $color-light-grayish-blue;
+    font-size: 0.9em;
+
+    .personal-logo {
+      width: 5em;
+    }
+
+    .personal-details .phone, .personal-details .email {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .personal-details .email {
+      margin-top: 0;
+    }
+
+    .personal-details .details-icon {
+        margin-right: 15px;
+    }
+
+    .other-links {
+        margin-top: 2.5em;
+        margin-bottom: 4em;
+
+        .social {
+            margin-top: 60px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social .social-icon {
+          margin-right: 11px;
+          height: 2.4em;
+          width: 2.4em;
+        }
+
+        .social .social-icon + .social-icon {
+          margin-top: 0;
+        }
+
+        .social .social-icon .fab {
+          padding: 9px;
+          font-size: 14px;
+          height: 2.4em;
+          width: 2.4em;
+          border-radius: 50%;
+          color: #f6f6fe;
+          text-align: center;
+          text-decoration: none;
+          border: 1px solid #f6f6fe;
+
+        }
+    }
+
+    .other-pages {
+        margin-bottom: 4em;
+        color: $color-light-grayish-blue;
+
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            line-height: 0.9em;
+
+              .link-item a {
+                color: $color-light-grayish-blue;
+              }
+        }
+    }
+
+    .attribution {
+      font-size: 0.8em;
+      text-align: center;
+
+        .external-link a {
+          color: $color-light-grayish-blue;
+        }
+    }
+}
+
+
 
 /* 48em = 768px */
 
