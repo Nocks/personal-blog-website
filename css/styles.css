@@ -305,7 +305,10 @@ input:focus {
 .blog-subscribe .subscription-wrapper .subscription .input-subscription {
   margin-bottom: 0.75em;
 }
-.blog-subscribe .subscription-wrapper .subscription .bottom-btn-subscription {
+.blog-subscribe .subscription-wrapper .subscription .subscription-name {
+  margin-bottom: 0;
+}
+.blog-subscribe .subscription-wrapper .subscription .blog-btn-subscription {
   margin-top: 0;
   box-shadow: 1px 2px 2px -1px rgba(112, 108, 112, 0.58);
 }
