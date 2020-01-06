@@ -162,11 +162,13 @@ a:active, a:focus {
 }
 
 button:focus,
-input:focus {
+input:focus,
+textarea:focus {
   outline: none;
 }
 
-.input-subscription[type=text] {
+.input-subscription[type=text],
+.message-textbox {
   width: 100%;
   padding: 15px 20px;
   border: 1px solid #585989;
@@ -423,6 +425,34 @@ input:focus {
 .other-page-link-wrapper .link-arrow {
   margin-top: 0;
   margin-left: 0.2em;
+}
+
+.contact-wrapper {
+  margin-bottom: 2em;
+}
+.contact-wrapper .title {
+  color: #070439;
+  font-size: 2.2em;
+}
+.contact-wrapper .contact-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-wrapper .message-text {
+  margin-top: 0;
+}
+.contact-wrapper .btn-send-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3c9f8f;
+  font-weight: normal;
+}
+.contact-wrapper .btn-send-message .fa-paper-plane {
+  margin-top: 0;
+  margin-left: 0.3em;
 }
 
 /* 48em = 768px */

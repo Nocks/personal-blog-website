@@ -5,8 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact | Enock Kwesi Addey</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/70ab2d7f09.js"></script>
   </head>
   <body>
-
+    <div class="container">
+      <header class="header">
+        <a href="#" class="logo"><img src="images/logo/logo-dark.svg" class="personal-logo svg" alt="logo"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu top">
+          <li class="menu-item"><a href="index.html">Home</a></li>
+          <li class="menu-item"><a href="about.html">About</a></li>
+          <li class="menu-item"><a href="#">Blog</a></li>
+          <li class="menu-item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </header>
+      <main class="main-content">
+        <div class="contact-wrapper">
+          <h1 class="title">Contact</h1>
+          <div class="contact-message">
+            <h4 class="tagline">I would love to hear from you!</h4>
+            <p class="message-text">
+              I'm currently open for any interesting web project.
+              If you need either a Python/Django developer or a front-end developer,
+              kindly get in touch!
+            </p>
+          </div>
+          <div class="contact-form-wrapper">
+            <form>
+              <input type="text" class="input-subscription subscription-name" placeholder="Name">
+              <input type="text" class="input-subscription subscription-email" placeholder="Email">
+              <input type="text" class="input-subscription subscription-email" placeholder="Subject">
+              <textarea class="message-textbox" rows="8" cols="80" placeholder="Message"></textarea>
+              <button type="button" class="btn-subscription btn-send-message" name="button">
+                <span>Send message</span><i class="far fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </main>
+      <div class="footer">
+        <div class="main-inner-wrapper">
+          <div class="personal-details">
+            <div class="logo">
+              <img src="images/logo/logo-light.svg" class="personal-logo svg" alt="logo">
+            </div>
+            <div class="phone">
+              <span class="details-icon"><img src="images/icons/icon-phone.svg" alt="phone icon"></span>
+              <span>Phone: (+233) 024-281-6465</span>
+            </div>
+            <div class="email">
+              <span class="details-icon"><img src="images/icons/icon-email.svg" alt="email icon"></span>
+              <span>enock.addey[at]gmail.com</span>
+            </div>
+          </div>
+          <div class="other-links">
+            <div class="other-pages">
+              <ul class="menu">
+                <li class="link-item"><a href="#">Home</a></li>
+                <li class="link-item"><a href="#">About</a></li>
+                <li class="link-item"><a href="#">Blog</a></li>
+                <li class="link-item"><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="social">
+              <div class="social-icon">
+                <a href="https://www.linkedin.com/in/enockkwesiaddey/">
+                  <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="https://github.com/Nocks">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="https://twitter.com/EnockAddey">
+                  <i class="fab fa-twitter" aria-hidden="true"></i>
+                </a>
+              </div>
+          </div>
+          </div>
+        </div>
+        <p class="attribution">
+          Developed by <span class="external-link"><a href="http://enockaddey.com/">Enock Kwesi Addey</a>
+          </span> &copy; 2020.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
