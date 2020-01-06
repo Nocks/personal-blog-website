@@ -5,8 +5,131 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About | Enock Kwesi Addey</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/70ab2d7f09.js"></script>
   </head>
   <body>
-    
+    <div class="container">
+      <header class="header">
+        <a href="#" class="logo"><img src="images/logo/logo-dark.svg" class="personal-logo svg" alt="logo"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu top">
+          <li class="menu-item"><a href="index.html">Home</a></li>
+          <li class="menu-item"><a href="about.html">About</a></li>
+          <li class="menu-item"><a href="#">Blog</a></li>
+          <li class="menu-item"><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <main class="main-content">
+        <div class="about-wrapper">
+          <h1 class="title">About Me</h1>
+          <div class="photo-wrapper">
+            <img src="images/headshot/my_headshot_monochrome.jpg" class="headshot" alt="my headshot">
+          </div>
+          <div class="text-wrapper">
+            <p class="about-text">
+              Hello there! I'm Enock Kwesi Addey, and welcome to my website. I'm a Python
+              web developer, based in Accra, Ghana. I have strong interests
+              in Python, Django, JavaScript, and CSS.
+              As an autodidact developer, I never stop learning!
+            </p>
+            <p class="about-text">
+              I started learning python three years ago, and though it's not
+              my first programming language, it's become my core language.
+              For quality and structure in my learning of Python,
+              I signed up on <a href="https://teamtreehouse.com/enockkwesiaddey" target="_blank">Treehouse</a>
+              to explore the possibilities of Python;
+              I also later signed up on <a href="https://www.dataquest.io/profile/enock.addey" target="_blank">Dataquest</a>
+              where I studied data analysis using Python. Now, I'm sold on Python as a tool for solving real world problems.
+              I recently earned a Nanodegree in
+              <a href="https://graduation.udacity.com/confirm/9M6P6DLF" target="_blank">Programming for Data Science for Enterprise</a>.
+            </p>
+            <p class="about-text">
+              I have been fortunate to work on some interesting remote projects such as
+              <a href="https://beta.tripfluencers.com" target="_blank">Tripfluencers</a>
+              and <a href="https://fr.sd" target="_blank">Fireside</a>. I'm currently enrolled in
+              <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011" target="_blank">Front End Web Developer</a>
+              Nanodegree program. I'm looking forward to getting a full-stack or front-end job after
+              completion, where I get to apply my aquired knowledge and skills on other interesting projects.
+            </p>
+            <p class="other-page-link-wrapper">
+              <a href="contact.html" class="internal-link">
+                <span>Contact me for your project</span> <img src="images/icons/icon-arrow.svg" class="link-arrow" alt="arrow">
+              </a>
+            </p>
+          </div>
+        </div>
+      </main>
+      <div class="blog-subscribe">
+        <div class="message">
+          <h3 class="title">Subscribe to my blog</h3>
+          <p class="text">
+            It only takes a minute to subscribe to my blog.
+            Just enter your name and email address.
+            It will be great to be notified once I post a new article.
+            And hey, be rest assured, I'm not going to spam you!
+          </p>
+        </div>
+        <div class="subscription-wrapper">
+          <div class="subscription">
+            <input type="text" class="input-subscription subscription-name" placeholder="John Doe">
+            <input type="text" class="input-subscription subscription-email" placeholder="email@example.com">
+            <button type="button" class="btn-subscription blog-btn-subscription" name="button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="main-inner-wrapper">
+          <div class="personal-details">
+            <div class="logo">
+              <img src="images/logo/logo-light.svg" class="personal-logo svg" alt="logo">
+            </div>
+            <div class="phone">
+              <span class="details-icon"><img src="images/icons/icon-phone.svg" alt="phone icon"></span>
+              <span>Phone: (+233) 024-281-6465</span>
+            </div>
+            <div class="email">
+              <span class="details-icon"><img src="images/icons/icon-email.svg" alt="email icon"></span>
+              <span>enock.addey[at]gmail.com</span>
+            </div>
+          </div>
+          <div class="other-links">
+            <div class="other-pages">
+              <ul class="menu">
+                <li class="link-item"><a href="#">Home</a></li>
+                <li class="link-item"><a href="#">About</a></li>
+                <li class="link-item"><a href="#">Blog</a></li>
+                <li class="link-item"><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="social">
+              <div class="social-icon">
+                <a href="https://www.linkedin.com/in/enockkwesiaddey/">
+                  <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="https://github.com/Nocks">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="https://twitter.com/EnockAddey">
+                  <i class="fab fa-twitter" aria-hidden="true"></i>
+                </a>
+              </div>
+          </div>
+          </div>
+        </div>
+        <p class="attribution">
+          Developed by <span class="external-link"><a href="http://enockaddey.com/">Enock Kwesi Addey</a>
+          </span> &copy; 2020.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
