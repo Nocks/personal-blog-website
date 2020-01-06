@@ -91,7 +91,7 @@
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+  max-height: 280px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -109,6 +109,10 @@
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
+}
+
+.menu-item + .menu-item {
+  margin-top: 0;
 }
 
 :root {
