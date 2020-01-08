@@ -122,6 +122,22 @@ textarea:focus {
         }
     }
 
+    .image-wrapper {
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .fig-caption {
+      font-size: 0.9em;
+      margin-top: 0;
+      text-align: center;
+    }
+
+    .post-image {
+      width: 100%;
+    }
+
     .post-summary-item {
       display: flex;
       flex-direction: column;
@@ -131,22 +147,6 @@ textarea:focus {
       border-radius: 5px;
       box-shadow: 0px 0px 8px 3px #e6e6e6;
       margin-bottom: 2.5em;
-
-        .image-wrapper {
-          margin: 0;
-          padding: 0;
-          background-color: #f4f4f4;
-        }
-
-        .fig-caption {
-          font-size: 0.9em;
-          margin-top: 0;
-          text-align: center;
-        }
-
-        .post-image {
-          width: 100%;
-        }
 
         .content {
           margin-top: 0.5em;
@@ -403,7 +403,139 @@ textarea:focus {
     }
 }
 
-/* 48em = 768px */
+
+// Blog Post
+
+.blog-post-wrapper {
+
+  .photo-wrapper {
+    height: 7em;
+    width: 7em;
+  }
+
+}
+
+.blog-post-title {
+  font-size: 1.8em;
+  line-height: 1.2em;
+  color: $color-very-dark-blue;
+  margin-top: 0;
+}
+
+.blog-info {
+  display: flex;
+  flex-direction: column;
+
+  .blog-share {
+    margin-bottom: 1em;
+  }
+}
+
+.blog-details-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.author-headshot {
+  height: 7em;
+  width: 7em;
+  border-radius: 50%;
+}
+
+.other-details-wrapper {
+  margin-top: 0;
+  margin-left: 1em;
+  font-size: 0.8em;
+
+    .post-author {
+      margin-bottom: 0.5em;
+    }
+
+    .date-duration {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 0.5em;
+      font-size: 0.9em;
+
+        .post-read-duration {
+          margin-top: 0;
+          margin-left: 0.6em;
+        }
+    }
+}
+
+.post-wrapper {
+
+  .quote {
+    border-left: solid 4px $color-very-dark-blue;
+    padding-left: 0.7em;
+    font-size: 1.2em;
+  }
+}
+
+.blog-share {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.share-social-icons {
+  margin-left: 0.6em;
+
+    .fab {
+      font-size: 1.4em;
+      margin-right: 0.3em;
+    }
+}
+
+.tags-wrapper {
+
+    .post-tag {
+      display: inline-block;
+      background-color: $color-light-grayish-blue;
+      text-align: center;
+      padding: 0.2em;
+      border-radius: 0.5em;
+      margin: 0.3em;
+    }
+}
+
+.author-bio-wrapper {
+  display: flex;
+  flex-direction: column;
+
+    .post-author {
+      display: flex;
+      // justify-content: space-between;
+      align-items: center;
+
+        .author-name-wrapper {
+          margin-top: 0;
+          margin-left: 1em;
+          text-align: center;
+
+
+            .written-by {
+              margin-top: 0;
+              margin-bottom: 0.5em;
+              font-size: 0.9em;
+            }
+
+            .author-name {
+              font-size: 0.9em;
+              margin: 0;
+            }
+        }
+    }
+
+    .author-bio {
+      margin-top: 0;
+      font-size: 0.9em;
+    }
+}
+
 
 @media (min-width: 48em) {
   .menu .menu-item {
