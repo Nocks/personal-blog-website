@@ -590,6 +590,7 @@ textarea:focus {
 
   //CSS
 
+
 }
 
 /*
@@ -599,8 +600,34 @@ textarea:focus {
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-  //CSS
+  .main-content {
 
+    .recent-post,
+    .about-wrapper,
+    .contact-wrapper {
+
+        .title {
+          margin-top: 0;
+          font-size: 2em;
+        }
+    }
+
+    .post-summary-item {
+
+      .post-title {
+        font-size: 1.4em;
+      }
+
+      .post-summary {
+        font-size: 1em;
+      }
+
+      .btn-see-more {
+        font-size: 1em;
+      }
+    }
+
+  }
 }
 
 

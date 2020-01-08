@@ -587,6 +587,23 @@ textarea:focus {
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
+@media (min-width: 320px) and (max-width: 480px) {
+  .main-content .recent-post .title,
+.main-content .about-wrapper .title,
+.main-content .contact-wrapper .title {
+    margin-top: 0;
+    font-size: 2em;
+  }
+  .main-content .post-summary-item .post-title {
+    font-size: 1.4em;
+  }
+  .main-content .post-summary-item .post-summary {
+    font-size: 1em;
+  }
+  .main-content .post-summary-item .btn-see-more {
+    font-size: 1em;
+  }
+}
 @media (min-width: 48em) {
   .menu .menu-item {
     margin-top: 24px;
