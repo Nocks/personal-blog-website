@@ -577,7 +577,93 @@ textarea:focus {
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
-  //CSS
+  .header {
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+  }
+  .main-content {
+
+    padding: 3.5em;
+
+    .recent-post,
+    .about-wrapper,
+    .contact-wrapper {
+
+        .title {
+          margin-top: 0;
+          font-size: 2.2em;
+        }
+    }
+
+    .blog-post-title {
+      font-size: 2.2em;
+    }
+
+    .blog-info {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5em;
+
+      .blog-details-wrapper .other-details-wrapper {
+        font-size: 1em;
+      }
+
+      .blog-share {
+        margin-bottom: 0;
+        height: 100%;
+      }
+
+    }
+  }
+
+  .blog-subscribe {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+
+  .author-bio-wrapper {
+    flex-direction: row;
+
+      .post-author {
+        flex-basis: 45%;
+      }
+
+      .author-bio {
+        flex-basis: 55%;
+
+          .other-page-link-wrapper {
+            justify-content: flex-start;
+          }
+      }
+  }
+
+  .footer .main-inner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+      .personal-details {
+        flex-basis: 50%;
+      }
+
+      .other-links {
+        flex-basis: 50%;
+        margin-left: 2em;
+        margin-right: 2em;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+          .other-pages {
+            margin-bottom: 0;
+          }
+
+          .social {
+            margin-top: 0;
+          }
+      }
+  }
 
 }
 
@@ -587,7 +673,7 @@ textarea:focus {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
+
   .header {
     padding-left: 1.6em;
     padding-right: 1.6em;
