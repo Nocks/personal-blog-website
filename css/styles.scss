@@ -555,7 +555,208 @@ textarea:focus {
 
 @media (min-width: 1025px) and (max-width: 1280px) {
 
-  //CSS
+  .header {
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+  }
+  .main-content {
+
+    padding: 3.5em;
+
+    .recent-post,
+    .about-wrapper,
+    .contact-wrapper {
+
+        .title {
+          margin-top: 0;
+          font-size: 2.2em;
+        }
+    }
+
+    .blog-post-title {
+      font-size: 2.2em;
+    }
+
+    .blog-info {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5em;
+
+      .blog-details-wrapper .other-details-wrapper {
+        font-size: 1em;
+      }
+
+      .blog-share {
+        margin-bottom: 0;
+        height: 100%;
+      }
+
+    }
+
+    .recent-post {
+
+        .post-summary-item {
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          padding: 1.4em;
+
+            .image-wrapper {
+              flex-basis: 45%;
+
+                .post-image {
+                  height: 329px;
+                }
+            }
+
+            .content {
+              flex-basis: 50%;
+              margin-top: 0;
+              height: 100%;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+
+                .post-title {
+                  margin-top: 0;
+                  margin-bottom: 0;
+                  font-size: 2em;
+                }
+
+                .post-summary {
+                  font-size: 1.5em;
+                  line-height: 1.4em;
+                  margin-bottom: 1em;
+                }
+
+                .btn-see-more {
+                  margin-top: 0;
+                }
+            }
+        }
+    }
+
+    .blog-post-wrapper {
+
+        .post-wrapper .post-text {
+          font-size: 1.4em;
+          line-height: 1.5em;
+        }
+
+        .post-wrapper .quote {
+          font-size: 1.4em;
+          line-height: 1.5em;
+          font-weight: bold;
+        }
+
+        .tags-wrapper {
+          font-size: 1.2em;
+        }
+    }
+
+    .about-wrapper {
+
+        .text-wrapper {
+          font-size: 1.4em;
+          line-height: 1.5em;
+        }
+    }
+
+    .contact-wrapper {
+
+        .contact-message {
+          padding-left: 8em;
+          padding-right: 8em;
+          font-size: 1.4em;
+          line-height: 1.5em;
+        }
+
+        .contact-form-wrapper {
+          padding-left: 8em;
+          padding-right: 8em;
+        }
+    }
+  }
+
+  .blog-subscribe {
+    padding-left: 4em;
+    padding-right: 4em;
+
+    display: flex;
+    justify-content: space-between;
+
+      .message {
+        flex-basis: 40%;
+        align-items: flex-start;
+        font-size: 1.1em;
+      }
+
+      .subscription-wrapper {
+        flex-basis: 45%;
+      }
+  }
+
+  .author-bio-wrapper {
+    flex-direction: row;
+
+      .post-author {
+        flex-basis: 30%;
+
+          .author-name-wrapper {
+
+              .written-by {
+                font-size: 1em;
+              }
+
+              .author-name {
+                font-size: 1em;
+              }
+          }
+      }
+
+      .author-bio {
+        flex-basis: 45%;
+        font-size: 1em;
+
+          .other-page-link-wrapper {
+            justify-content: flex-start;
+          }
+      }
+  }
+
+  .footer {
+
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+
+    .main-inner-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+        .personal-details {
+          flex-basis: 50%;
+        }
+
+        .other-links {
+          flex-basis: 50%;
+          margin-left: 2em;
+          margin-right: 2em;
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+
+            .other-pages {
+              margin-bottom: 0;
+            }
+
+            .social {
+              margin-top: 0;
+            }
+        }
+    }
+  }
 
 }
 
@@ -653,7 +854,6 @@ textarea:focus {
           }
       }
   }
-
 }
 
 /*
